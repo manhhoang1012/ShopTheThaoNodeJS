@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionShop</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    @RenderSection("Styles", required: false)
+    <style>
+        body {
+            padding: 10px;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width:1240px !important;
+        }
+        .navbar-top {
+            position: fixed;
+            font-size: 0.8em;
+            top: 0;
+            width: 100%;
+            background-color: black !important;
+            display: block;
+            max-height: 35px;
+            transition: top 0.3s;
+        }
+        nav.navbar-menu *{
+            color:white !important;
+        }
+            nav.navbar-menu * :hover {
+                transition: all 0.5s ease-in-out 0s;
+            }
+            nav.navbar-menu * :hover,
+            nav.navbar-menu * :focus {
+                background: transparent;
+                color: rgb(1 17 21 / 88%) !important;
+                text-decoration: none;
+            }
+        .navbar-menu {
+            padding:0.2em !important;
+            position: fixed;
+            top: 34.8px;
+            left:0;
+            right:0;
+            z-index: 1230;
+            transition: top 0.3s;
+            background-color: rgb(1 17 21 / 88%) !important;
+        }
+        .dropdown-menu {
+            margin-top:10px;
+            background-color: rgb(1 17 21 / 88%) !important;
+            -webkit-transform: translate(0, 50);
+            -o-transform: translate(0, 50);
+            transform: translate(0, 50);
+        }
+        .dropdown-item:hover {
+            color: rgb(1 17 21 / 88%) !important;
+        }
+        .dropdown-item:active {
+            background-color: rgb(1 17 21 / 88%) !important;
+            color: white !important;
+        }
+        .dropdown-menu-center {
+            right: auto;
+            left: 50%;
+            -webkit-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+        .dropdown-menu li {
+            position: relative;
+        }
+
+        .dropdown-menu .dropdown-submenu {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: -7px;
+        }
+
+        .dropdown-menu .dropdown-submenu-left {
+            right: 100%;
+            left: auto;
+        }
+
+        .dropdown-menu > li:hover > .dropdown-submenu {
+            display: block;
+        }
+        form.menu-search * {
+            font-size:0.9em !important;
+        }
+        .menu-search input {
+            color: white !important;
+            background-color: rgb(1 17 21 / 88%) !important;
+            height: auto !important;
+        }
+        .menu-search button {
+            color: black !important;
+        }
+        .menu-search input:hover,
+        .menu-search input:focus {
+            background: transparent;
+            color: white !important;
+            text-decoration: none;
+        }
+        .carousel-item {
+            height: 425px;
+        }
+
+            .carousel-item img {
+                object-fit: cover;
+                top: 0;
+                left: 0;
+                height: 310px;
+                width: 520px;
+            }
+        .round-black-btn {
+            border-radius: 4px;
+            background: #212529;
+            color: #fff;
+            padding: 7px 45px;
+            display: inline-block;
+            margin-top: 20px;
+            border: solid 2px #212529;
+            transition: all 0.5s ease-in-out 0s;
+        }
+
+            .round-black-btn:hover,
+            .round-black-btn:focus {
+                background: transparent;
+                color: black;
+                text-decoration: none;
+            }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .description{
+            font-style :italic;
+        }
+    </style>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbartop").style.top = "0";
+                document.getElementById("navbarmenu").style.top = "34.8px";
+            } else {
+                document.getElementById("navbartop").style.top = "-35px";
+                document.getElementById("navbarmenu").style.top = "0";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        $(document).ready(function () {
+            toastr.options = {
+                "closeButton": true
+            };
+            $('.carousel').carousel({
+                interval: 3000
+            });
+        });
+        $(function () {
+            if ($('#success').val()) {
+                displayMessage($('#success').val(), $('#subsuccess').val(), 'success');
+            }
+            if ($('#info').val()) {
+                displayMessage($('#info').val(), $('#subinfo').val(), 'info');
+            }
+            if ($('#warning').val()) {
+                displayMessage($('#warning').val(), $('#subwarning').val(), 'warning');
+            }
+            if ($('#error').val()) {
+                displayMessage($('#error').val(), $('#suberror').val(), 'error');
+            }
+        });
+        var displayMessage = function (title, subTitle, msgType) {
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "positionClass": "toast-top-right",
+                "onClick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "8000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            };
+            toastr[msgType](subTitle, title);
+        };
+    </script>
+</head>
+<body>
+    <div>
+        @{
+            Html.RenderAction("RenderMenu", "Home");
+        }
+        <div class="container body-content" style="margin-top:70px">
+            @RenderBody()
+        </div>
+        <hr />
+        <footer class="bg-dark mb-0" id="tempaltemo_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-success border-bottom pb-3 border-light logo">Fas</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li>
+                                <i class="fa fa-phone fa-fw"></i>
+                                <a class="text-decoration-none" href="#">038-465-9245</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope fa-fw"></i>
+                                <a class="text-decoration-none" href="#">Shiba@company.com</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li><a class="text-decoration-none" href="#">Nike</a></li>
+                            <li><a class="text-decoration-none" href="#">Adidas</a></li>
+                            <li><a class="text-decoration-none" href="#">Puma</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li><a class="text-decoration-none" href="#">Home</a></li>
+                            <li><a class="text-decoration-none" href="#">About Us</a></li>
+                            <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
+                            <li><a class="text-decoration-none" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row text-light mb-4">
+                    <div class="col-12 mb-3">
+                        <div class="w-100 my-3 border-top border-light"></div>
+                    </div>
+                    <div class="col-auto me-auto">
+                        <ul class="list-inline text-left footer-icons">
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="#">
+                                    <i class="fa fa-brands fa-facebook fa-lg fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="#">
+                                    <i class="fa fa-brands fa-instagram fa-lg fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="#">
+                                    <i class="fa fa-brands fa-twitter fa-lg fa-fw"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="#">
+                                    <i class="fa fa-brands fa-linkedin fa-lg fa-fw"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <label class="sr-only" for="subscribeEmail">Email address</label>
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control bg-dark border-light" id="subscribeEmail"
+                                   placeholder="Email address">
+                            <div class="input-group-text btn-success">Subscribe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-100 bg-black">
+                <div class="container">
+                    <div class="row pt-2">
+                        <div class="col-12">
+                            <p class="text-left text-light">
+                                Copyright &copy; @DateTime.Now.Year
+                                | Designed by <a rel="sponsored" href="#" target="_blank">Shiba9duoi</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" id="success" value="@TempData["success"]" />
+            <input type="hidden" id="info" value="@TempData["info"]" />
+            <input type="hidden" id="warning" value="@TempData["warning"]" />
+            <input type="hidden" id="error" value="@TempData["error"]" />
+            <input type="hidden" id="subsuccess" value="@TempData["subsuccess"]" />
+            <input type="hidden" id="subinfo" value="@TempData["subinfo"]" />
+            <input type="hidden" id="subwarning" value="@TempData["subwarning"]" />
+            <input type="hidden" id="suberror" value="@TempData["suberror"]" />
+        </footer>
+    </div>
+</body>
+</html>

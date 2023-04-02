@@ -1,0 +1,62 @@
+﻿@model IEnumerable<FashionShop.Models.Account>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Tài khoản</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr class="">
+        <th class="align-middle">
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th class="align-middle">
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th class="align-middle">
+            @Html.DisplayNameFor(model => model.Phone)
+        </th>
+        
+        <th class="align-middle">
+            @Html.DisplayNameFor(model => model.Role)
+        </th>
+        <th width="150px" class="text-center align-middle">
+            Thao tác
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td >
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Role)
+        </td>
+        <td class="text-center">
+            <a href="@Url.Action("Edit", new { @id = item.Id })" class="btn btn-sm btn-info">
+                <i class="fa fa-solid fa-pen-to-square"></i>
+            </a>
+            <a href="@Url.Action("Details", new { @id = item.Id })" class="btn btn-sm btn-warning">
+                <i class="fa fa-solid fa-circle-info"></i>
+            </a>
+            <a href="@Url.Action("Delete", new { @id = item.Id })" class="btn btn-sm btn-danger">
+                <i class="fa fa-solid fa-trash-can"></i>
+            </a>
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,612 @@
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.AssemblyReference.cache
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.SuggestedBindingRedirects.cache
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.CoreCompileInputs.cache
+D:\Sơn\FashionShop\FashionShop\bin\FashionShop.dll.config
+D:\Sơn\FashionShop\FashionShop\bin\FashionShop.dll
+D:\Sơn\FashionShop\FashionShop\bin\FashionShop.pdb
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\csc.exe
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\csc.exe.config
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\csc.rsp
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\csi.exe
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\csi.exe.config
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\csi.rsp
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.AppContext.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Collections.Immutable.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Console.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.IO.Compression.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Net.Http.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Net.Sockets.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.ValueTuple.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Xml.XPath.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\vbc.exe
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\vbc.exe.config
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\vbc.rsp
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\VBCSCompiler.exe
+D:\Sơn\FashionShop\FashionShop\bin\roslyn\VBCSCompiler.exe.config
+D:\Sơn\FashionShop\FashionShop\bin\Antlr3.Runtime.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Bcl.HashCode.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Data.SqlClient.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.Design.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Configuration.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Logging.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Options.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Primitives.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Identity.Client.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Logging.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Protocols.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Sơn\FashionShop\FashionShop\bin\Newtonsoft.Json.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Buffers.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Collections.Immutable.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.ComponentModel.Annotations.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Memory.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Numerics.Vectors.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Threading.Tasks.Extensions.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Helpers.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Mvc.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Optimization.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Razor.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.WebPages.Deployment.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.WebPages.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.WebPages.Razor.dll
+D:\Sơn\FashionShop\FashionShop\bin\WebGrease.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Bcl.HashCode.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Data.SqlClient.pdb
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Data.SqlClient.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.Design.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Configuration.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Logging.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Options.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Extensions.Primitives.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Identity.Client.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Logging.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Protocols.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Buffers.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Collections.Immutable.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Memory.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Numerics.Vectors.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Threading.Tasks.Extensions.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Helpers.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Mvc.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Optimization.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.Razor.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.WebPages.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.WebPages.Deployment.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Web.WebPages.Razor.xml
+D:\Sơn\FashionShop\FashionShop\bin\Newtonsoft.Json.xml
+D:\Sơn\FashionShop\FashionShop\bin\Antlr3.Runtime.pdb
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sơn\FashionShop\FashionShop\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.CopyComplete
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.dll
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.pdb
+D:\Sơn\FashionShop\FashionShop\bin\EntityFramework.dll
+D:\Sơn\FashionShop\FashionShop\bin\EntityFramework.SqlServer.dll
+D:\Sơn\FashionShop\FashionShop\bin\EntityFramework.xml
+D:\Sơn\FashionShop\FashionShop\bin\EntityFramework.SqlServer.xml
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.vv.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.csproj.GenerateResource.cache
+D:\Sơn\FashionShop\FashionShop\bin\Azure.Core.dll
+D:\Sơn\FashionShop\FashionShop\bin\Azure.Identity.dll
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Configuration.ConfigurationManager.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.AccessControl.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.Cryptography.ProtectedData.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.Permissions.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.Principal.Windows.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Text.Encodings.Web.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.Text.Json.dll
+D:\Sơn\FashionShop\FashionShop\bin\System.ValueTuple.dll
+D:\Sơn\FashionShop\FashionShop\bin\Azure.Core.xml
+D:\Sơn\FashionShop\FashionShop\bin\Azure.Identity.xml
+D:\Sơn\FashionShop\FashionShop\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Configuration.ConfigurationManager.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.AccessControl.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.Permissions.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Security.Principal.Windows.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Text.Encodings.Web.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.Text.Json.xml
+D:\Sơn\FashionShop\FashionShop\bin\System.ValueTuple.xml
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v1.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v2.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v3.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v4.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v5.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v6.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v7.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v8.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v9.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v10.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v11.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v12.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v13.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v14.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v15.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v16.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v17.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v18.resources
+D:\Sơn\FashionShop\FashionShop\obj\Debug\FashionShop.Migrations.v19.resources
+G:\Web The Thao\FashionShop\bin\FashionShop.dll.config
+G:\Web The Thao\FashionShop\bin\FashionShop.dll
+G:\Web The Thao\FashionShop\bin\FashionShop.pdb
+G:\Web The Thao\FashionShop\bin\roslyn\csc.exe
+G:\Web The Thao\FashionShop\bin\roslyn\csc.exe.config
+G:\Web The Thao\FashionShop\bin\roslyn\csc.rsp
+G:\Web The Thao\FashionShop\bin\roslyn\csi.exe
+G:\Web The Thao\FashionShop\bin\roslyn\csi.exe.config
+G:\Web The Thao\FashionShop\bin\roslyn\csi.rsp
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Web The Thao\FashionShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.AppContext.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Collections.Immutable.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Console.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Globalization.Calendars.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.IO.Compression.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.IO.FileSystem.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Net.Http.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Net.Sockets.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Reflection.Metadata.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.ValueTuple.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Xml.XPath.dll
+G:\Web The Thao\FashionShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Web The Thao\FashionShop\bin\roslyn\vbc.exe
+G:\Web The Thao\FashionShop\bin\roslyn\vbc.exe.config
+G:\Web The Thao\FashionShop\bin\roslyn\vbc.rsp
+G:\Web The Thao\FashionShop\bin\roslyn\VBCSCompiler.exe
+G:\Web The Thao\FashionShop\bin\roslyn\VBCSCompiler.exe.config
+G:\Web The Thao\FashionShop\bin\Antlr3.Runtime.dll
+G:\Web The Thao\FashionShop\bin\Azure.Core.dll
+G:\Web The Thao\FashionShop\bin\Azure.Identity.dll
+G:\Web The Thao\FashionShop\bin\EntityFramework.dll
+G:\Web The Thao\FashionShop\bin\EntityFramework.SqlServer.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Bcl.HashCode.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Data.SqlClient.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Design.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Abstractions.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Memory.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Binder.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Options.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Primitives.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Logging.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Tokens.dll
+G:\Web The Thao\FashionShop\bin\Microsoft.Web.Infrastructure.dll
+G:\Web The Thao\FashionShop\bin\Newtonsoft.Json.dll
+G:\Web The Thao\FashionShop\bin\System.Buffers.dll
+G:\Web The Thao\FashionShop\bin\System.Collections.Immutable.dll
+G:\Web The Thao\FashionShop\bin\System.ComponentModel.Annotations.dll
+G:\Web The Thao\FashionShop\bin\System.Configuration.ConfigurationManager.dll
+G:\Web The Thao\FashionShop\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Web The Thao\FashionShop\bin\System.IdentityModel.Tokens.Jwt.dll
+G:\Web The Thao\FashionShop\bin\System.Memory.dll
+G:\Web The Thao\FashionShop\bin\System.Numerics.Vectors.dll
+G:\Web The Thao\FashionShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\Web The Thao\FashionShop\bin\System.Security.AccessControl.dll
+G:\Web The Thao\FashionShop\bin\System.Security.Cryptography.ProtectedData.dll
+G:\Web The Thao\FashionShop\bin\System.Security.Permissions.dll
+G:\Web The Thao\FashionShop\bin\System.Security.Principal.Windows.dll
+G:\Web The Thao\FashionShop\bin\System.Text.Encodings.Web.dll
+G:\Web The Thao\FashionShop\bin\System.Text.Json.dll
+G:\Web The Thao\FashionShop\bin\System.Threading.Tasks.Extensions.dll
+G:\Web The Thao\FashionShop\bin\System.ValueTuple.dll
+G:\Web The Thao\FashionShop\bin\System.Web.Helpers.dll
+G:\Web The Thao\FashionShop\bin\System.Web.Mvc.dll
+G:\Web The Thao\FashionShop\bin\System.Web.Optimization.dll
+G:\Web The Thao\FashionShop\bin\System.Web.Razor.dll
+G:\Web The Thao\FashionShop\bin\System.Web.WebPages.Deployment.dll
+G:\Web The Thao\FashionShop\bin\System.Web.WebPages.dll
+G:\Web The Thao\FashionShop\bin\System.Web.WebPages.Razor.dll
+G:\Web The Thao\FashionShop\bin\WebGrease.dll
+G:\Web The Thao\FashionShop\bin\Azure.Core.xml
+G:\Web The Thao\FashionShop\bin\Azure.Identity.xml
+G:\Web The Thao\FashionShop\bin\EntityFramework.xml
+G:\Web The Thao\FashionShop\bin\EntityFramework.SqlServer.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Bcl.AsyncInterfaces.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Bcl.HashCode.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Data.SqlClient.pdb
+G:\Web The Thao\FashionShop\bin\Microsoft.Data.SqlClient.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Design.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Relational.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Abstractions.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Memory.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Binder.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Options.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Extensions.Primitives.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Logging.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+G:\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Tokens.xml
+G:\Web The Thao\FashionShop\bin\System.Buffers.xml
+G:\Web The Thao\FashionShop\bin\System.Collections.Immutable.xml
+G:\Web The Thao\FashionShop\bin\System.Configuration.ConfigurationManager.xml
+G:\Web The Thao\FashionShop\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Web The Thao\FashionShop\bin\System.IdentityModel.Tokens.Jwt.xml
+G:\Web The Thao\FashionShop\bin\System.Memory.xml
+G:\Web The Thao\FashionShop\bin\System.Numerics.Vectors.xml
+G:\Web The Thao\FashionShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\Web The Thao\FashionShop\bin\System.Security.AccessControl.xml
+G:\Web The Thao\FashionShop\bin\System.Security.Permissions.xml
+G:\Web The Thao\FashionShop\bin\System.Security.Principal.Windows.xml
+G:\Web The Thao\FashionShop\bin\System.Text.Encodings.Web.xml
+G:\Web The Thao\FashionShop\bin\System.Text.Json.xml
+G:\Web The Thao\FashionShop\bin\System.Threading.Tasks.Extensions.xml
+G:\Web The Thao\FashionShop\bin\System.ValueTuple.xml
+G:\Web The Thao\FashionShop\bin\System.Web.Helpers.xml
+G:\Web The Thao\FashionShop\bin\System.Web.Mvc.xml
+G:\Web The Thao\FashionShop\bin\System.Web.Optimization.xml
+G:\Web The Thao\FashionShop\bin\System.Web.Razor.xml
+G:\Web The Thao\FashionShop\bin\System.Web.WebPages.xml
+G:\Web The Thao\FashionShop\bin\System.Web.WebPages.Deployment.xml
+G:\Web The Thao\FashionShop\bin\System.Web.WebPages.Razor.xml
+G:\Web The Thao\FashionShop\bin\Newtonsoft.Json.xml
+G:\Web The Thao\FashionShop\bin\Antlr3.Runtime.pdb
+G:\Web The Thao\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Web The Thao\FashionShop\bin\de\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\es\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\fr\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\it\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\ja\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\ko\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\ru\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.AssemblyReference.cache
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.SuggestedBindingRedirects.cache
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.vv.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v1.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v2.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v3.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v4.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v5.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v6.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v7.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v8.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v9.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v10.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v11.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v12.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v13.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v14.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v15.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v16.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v17.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v18.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v19.resources
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.GenerateResource.cache
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.CoreCompileInputs.cache
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.CopyComplete
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.dll
+G:\Web The Thao\FashionShop\obj\Debug\FashionShop.pdb
+D:\doanweb\Web The Thao\FashionShop\bin\FashionShop.dll.config
+D:\doanweb\Web The Thao\FashionShop\bin\FashionShop.dll
+D:\doanweb\Web The Thao\FashionShop\bin\FashionShop.pdb
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\csc.exe
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\csc.exe.config
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\csc.rsp
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\csi.exe
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\csi.exe.config
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\csi.rsp
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.AppContext.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Collections.Immutable.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Console.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.IO.Compression.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.IO.FileSystem.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Net.Http.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Net.Sockets.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.ValueTuple.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Xml.XPath.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\vbc.exe
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\vbc.exe.config
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\vbc.rsp
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\VBCSCompiler.exe
+D:\doanweb\Web The Thao\FashionShop\bin\roslyn\VBCSCompiler.exe.config
+D:\doanweb\Web The Thao\FashionShop\bin\Antlr3.Runtime.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Azure.Core.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Azure.Identity.dll
+D:\doanweb\Web The Thao\FashionShop\bin\EntityFramework.dll
+D:\doanweb\Web The Thao\FashionShop\bin\EntityFramework.SqlServer.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Bcl.HashCode.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Data.SqlClient.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Design.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Relational.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Options.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Primitives.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Logging.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Tokens.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Web.Infrastructure.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Newtonsoft.Json.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Buffers.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Collections.Immutable.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.ComponentModel.Annotations.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Configuration.ConfigurationManager.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Diagnostics.DiagnosticSource.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Memory.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Numerics.Vectors.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.AccessControl.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.Cryptography.ProtectedData.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.Permissions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.Principal.Windows.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Text.Encodings.Web.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Text.Json.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Threading.Tasks.Extensions.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.ValueTuple.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Helpers.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Mvc.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Optimization.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Razor.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.WebPages.Deployment.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.WebPages.dll
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.WebPages.Razor.dll
+D:\doanweb\Web The Thao\FashionShop\bin\WebGrease.dll
+D:\doanweb\Web The Thao\FashionShop\bin\Azure.Core.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Azure.Identity.xml
+D:\doanweb\Web The Thao\FashionShop\bin\EntityFramework.xml
+D:\doanweb\Web The Thao\FashionShop\bin\EntityFramework.SqlServer.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Bcl.HashCode.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Data.SqlClient.pdb
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Data.SqlClient.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Design.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Options.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Extensions.Primitives.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Logging.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.IdentityModel.Tokens.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Buffers.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Collections.Immutable.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Configuration.ConfigurationManager.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Diagnostics.DiagnosticSource.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Memory.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Numerics.Vectors.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.AccessControl.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.Permissions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Security.Principal.Windows.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Text.Encodings.Web.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Text.Json.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Threading.Tasks.Extensions.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.ValueTuple.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Helpers.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Mvc.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Optimization.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.Razor.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.WebPages.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.WebPages.Deployment.xml
+D:\doanweb\Web The Thao\FashionShop\bin\System.Web.WebPages.Razor.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Newtonsoft.Json.xml
+D:\doanweb\Web The Thao\FashionShop\bin\Antlr3.Runtime.pdb
+D:\doanweb\Web The Thao\FashionShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\doanweb\Web The Thao\FashionShop\bin\de\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\es\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\fr\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\it\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\ja\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\ko\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\ru\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.AssemblyReference.cache
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.SuggestedBindingRedirects.cache
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.vv.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v1.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v2.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v3.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v4.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v5.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v6.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v7.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v8.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v9.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v10.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v11.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v12.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v13.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v14.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v15.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v16.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v17.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v18.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.Migrations.v19.resources
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.GenerateResource.cache
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.CoreCompileInputs.cache
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.csproj.CopyComplete
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.dll
+D:\doanweb\Web The Thao\FashionShop\obj\Debug\FashionShop.pdb

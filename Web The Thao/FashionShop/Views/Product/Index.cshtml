@@ -1,0 +1,58 @@
+﻿@model IEnumerable<FashionShop.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <style>
+
+     
+    </style>
+}
+    <div class="container py-5">
+        <div class="row text-center py-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Sản phẩm nổi bật</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-3 col-md-3 mb-3 p-2">
+                    <div class="card h-100">
+
+                        <a href="@Url.Action("details",new {item.Id})">
+                            <img src="~/assets/images/@(item.Image==null ? "default.jpg" : item.Image)" class="card-img-top" alt="">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">@(item.Price?.ToString("n0")) VNĐ</li>
+                            </ul>
+                            <a href="@Url.Action("details",new {item.Id})" class="h5 text-decoration-none text-dark">@item.Name</a>
+                            <p style="font-size:0.8rem" class="card-text">
+                                @(item.Description.Count() > 50 ? item.Description.Substring(0, 50) + "..." : item.Description)
+                            </p>
+                            <p class="text-muted p-0 mb-0">Reviews (24)</p>
+                        </div>
+                    </div>
+                    </div>
+                }
+               
+        </div>
+    </div>
+
+

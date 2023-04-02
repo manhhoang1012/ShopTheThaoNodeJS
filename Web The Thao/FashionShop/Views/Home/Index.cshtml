@@ -1,0 +1,187 @@
+﻿@model IEnumerable<FashionShop.Models.Product>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<script>
+    $('.carousel').carousel({
+        interval: 2000
+    })
+</script>
+<!-- Start Banner Hero -->
+<div id="template-mo-jassa-hero-carousel" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#template-mo-jassa-hero-carousel" data-slide-to="0" class="bg-dark active"></li>
+        <li data-target="#template-mo-jassa-hero-carousel" data-slide-to="1" class="bg-dark"></li>
+        <li data-target="#template-mo-jassa-hero-carousel" data-slide-to="2" class="bg-dark"></li>
+        <li data-target="#template-mo-jassa-hero-carousel" data-slide-to="3" class="bg-dark"></li>
+    </ol>
+    <div class="carousel-inner rounded-lg shadow-lg">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row p-5 pt-0">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="~/assets/images/nike_slide.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 pl-4 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <h1 class="h1 text-success"><b>Shiba</b> Asp.net</h1>
+                            <h3 class="h2">Lorem Ipsum Lorem Ipsum</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5 pt-0">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid " src="~/assets/images/adidas_slide.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 pl-4 d-flex align-items-center">
+                        <div class="text-align-left">
+                            <h1 class="h1">Lorem Ipsum</h1>
+                            <h3 class="h2">Lorem Ipsum Lorem Ipsum</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5 pt-0">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="~/assets/images/puma_slide.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 pl-4 d-flex align-items-center">
+                        <div class="text-align-left">
+                            <h1 class="h1">Lorem Ipsum</h1>
+                            <h3 class="h2">Lorem Ipsum Lorem Ipsum </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row p-5 pt-0    ">
+                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                        <img class="img-fluid" src="~/assets/images/all_slide.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mb-0 pl-4 d-flex align-items-center">
+                        <div class="text-align-left">
+                            <h1 class="h1">Lorem Ipsum</h1>
+                            <h3 class="h2">Lorem Ipsum Lorem Ipsum </h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev text-decoration-none w-auto p-3" href="#template-mo-jassa-hero-carousel" role="button" data-slide="prev">
+        <i class="fa fa-solid fa-chevron-left fa-2x text-muted"></i>
+    </a>
+    <a class="carousel-control-next text-decoration-none w-auto p-3" href="#template-mo-jassa-hero-carousel" role="button" data-slide="next">
+        <i class="fa fa-solid fa-chevron-right fa-2x text-muted"></i>
+    </a>
+</div>
+<!-- End Banner Hero -->
+<!-- Start Categories of The Month -->
+<section class="container py-5">
+    <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+            <h1 class="h1">Brands of The Month</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4 p-5 mt-3">
+            <a href="@Url.Action("Index", "Product", new {brandid = "01"})"><img src="~/assets/images/nike_logo.jpg" style="max-height: 155px" class="rounded-circle img-fluid border w-100"></a>
+            <h5 class="text-center mt-3 mb-3">Nike</h5>
+            <p class="text-center"><a href="@Url.Action("Index", "Product", new {brandid = "01"})" class="btn btn-success">Go Shop</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+            <a href="@Url.Action("Index", "Product", new {brandid = "02"})"><img src="~/assets/images/adidas_logo.jpg" style="max-height: 155px" class="rounded-circle img-fluid border w-100"></a>
+            <h2 class="h5 text-center mt-3 mb-3">Adidas</h2>
+            <p class="text-center"><a href="@Url.Action("Index", "Product", new {brandid = "02"})" class="btn btn-success">Go Shop</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+            <a href="@Url.Action("Index", "Product", new {brandid = "03"})"><img src="~/assets/images/puma_logo.png" style="max-height: 155px" class="rounded-circle img-fluid border w-100"></a>
+            <h2 class="h5 text-center mt-3 mb-3">Puma</h2>
+            <p class="text-center"><a href="@Url.Action("Index", "Product", new {brandid = "03"})" class="btn btn-success">Go Shop</a></p>
+        </div>
+    </div>
+</section>
+<!-- End Categories of The Month -->
+<!-- Start Featured Product -->
+<section class="bg-light">
+    <div class="container py-5">
+        <div class="row text-center py-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Featured Product</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            @{
+                foreach (var item in Model)
+                {
+                    <div class="col-12 col-md-3 mb-4">
+                        <div class="card h-100">
+                            <a href="~/Product/Details/@item.Id">
+                                <img src="~/assets/images/@item.Image" class="card-img-top" alt="@item.Name">
+                            </a>
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                    </li>
+                                    <li class="text-muted text-right">@(item.Price?.ToString("n0")) VNĐ</li>
+                                </ul>
+                                <a href="~/Product/Details/@item.Id" class="h5 text-decoration-none text-dark">@item.Name</a>
+                                <p style="font-size:0.8rem" class="card-text">
+                                    @(item.Description.Count() >= 70 ? item.Description.Substring(0,70)+"..." : item.Description )
+                                </p>
+                                <p class="text-muted">Reviews (24)</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+</section>
+<!-- End Featured Product -->

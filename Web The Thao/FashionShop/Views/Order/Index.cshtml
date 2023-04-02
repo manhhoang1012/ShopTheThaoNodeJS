@@ -1,0 +1,298 @@
+﻿@model IEnumerable<FashionShop.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content py-5">
+    <div class="container">
+        <div class="row">
+            <main class="col-md-12">
+                <div class="card">
+                    <div class="table-responsive table-hover">
+                        <table class="table align-middle mb-0 bg-white">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Thông tin</th>
+                                    <th>Trạng thái</th>
+                                    <th>Tổng tiền</th>
+                                    <th class="text-center">Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    foreach (var item in Model)
+                                    {
+                                        <input type="hidden" id="name-@item.Id" name="name-@item.Id" value="@item.Product.Name" />
+                                        <input type="hidden" id="nameorder-@item.Id" name="nameorder-@item.Id" value="@item.Name" />
+                                        <input type="hidden" id="phone-@item.Id" name="phone-@item.Id" value="@item.Phone" />
+                                        <input type="hidden" id="address-@item.Id" name="address-@item.Id" value="@item.Address" />
+                                        <input type="hidden" id="createat-@item.Id" name="createat-@item.Id" value="@(item.CreatedAt?.ToString("dddd, dd MMMM yyyy HH:mm"))" />
+
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="~/assets/images/@item.Product.Image"
+                                                         alt=""
+                                                         style="width: 45px; height: 45px"
+                                                         class="rounded-circle" />
+                                                    <div class="mx-3">
+                                                        <p class="fw-bold mb-1">@item.Product.Name</p>
+                                                        <p class="text-muted mb-0">Số lượng: @item.Quantity</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="fw-normal mb-1">Đơn giá: @(item.Product.Discount != null ? (item.Product.Price - item.Product.Discount)?.ToString("n0") : (item.Product.Price)?.ToString("n0")) VNĐ</p>
+                                                <p class="text-muted mb-0">Thương hiệu: @item.Product.Branch.Name</p>
+                                            </td>
+                                            <td>
+                                                @{
+                                                    if (@item.Status == FashionShop.Shared.StatusConst.WaitConfirm)
+                                                    {
+                                                        <span class="badge badge-warning rounded-pill d-inline">Chờ xác nhận</span>
+                                                    }
+                                                    else if (@item.Status == FashionShop.Shared.StatusConst.Confirmed)
+                                                    {
+                                                        <span class="badge badge-primary rounded-pill d-inline">Đã xác nhận</span>
+                                                    }
+                                                    else if (@item.Status == FashionShop.Shared.StatusConst.Shipping)
+                                                    {
+                                                        <span class="badge badge-success rounded-pill d-inline">Đang giao</span>
+                                                    }
+                                                }
+                                            </td>
+                                            <td>@(item.Total?.ToString("n0")) VNĐ</td>
+                                            <td class="text-center">
+                                                @if (item.Status == FashionShop.Shared.StatusConst.WaitConfirm)
+                                                {
+                                                    <a data-orderid="@item.Id" class="btn btn-sm btn-info edit">
+                                                        <i class="fa fa-solid fa-pen-to-square"></i>
+                                                    </a>
+                                                    <a data-orderid="@item.Id" class="btn btn-sm btn-warning detail">
+                                                        <i class="fa fa-solid fa-circle-info"></i>
+                                                    </a>
+                                                    <a data-orderid="@item.Id" class="btn btn-sm btn-danger delete">
+                                                        <i class="fa fa-solid fa-trash-can"></i>
+                                                    </a>
+                                                }
+                                                else if (item.Status == FashionShop.Shared.StatusConst.Confirmed)
+                                                {
+                                                    <a data-orderid="@item.Id" class="btn btn-sm btn-warning detail">
+                                                        <i class="fa fa-solid fa-circle-info"></i>
+                                                    </a>
+                                                    <a data-orderid="@item.Id" class="btn btn-sm btn-danger delete">
+                                                        <i class="fa fa-solid fa-trash-can"></i>
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <a data-orderid="@item.Id" class="btn btn-sm btn-warning detail">
+                                                        <i class="fa fa-solid fa-circle-info"></i>
+                                                    </a>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+
+
+                                }
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- card.// -->
+                <div class="alert alert-success mt-3">
+                    <p class="icontext"><i class="icon text-success fa fa-truck"></i> Free Delivery within 1-2 weeks</p>
+                </div>
+            </main> <!-- col.// -->
+        </div>
+
+    </div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->
+<!-- ========================= SECTION  ========================= -->
+<section class="section-name bg padding-y">
+    <div class="container">
+        <h6>Payment and refund policy</h6>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+        </p>
+    </div><!-- container // -->
+</section>
+<!-- ========================= SECTION  END// ========================= -->
+<!-- Modal detai -->
+<div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index:10000 !important">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" action="">
+                @Html.AntiForgeryToken()
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Chi tiết đơn hàng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="max-width:none !important;">
+                    <div class="form-group nameorder">
+                        <label>Tên người nhận</label>
+                        <input id="nameorder" type="text" class="form-control" required="required" name="nameorder" />
+                    </div>
+                    <div class="form-group">
+                        <label>Tên sản phẩm</label>
+                        <input id="name" type="text" class="form-control" required="required" name="name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input id="phone" type="text" class="form-control" required="required" name="phone" />
+                    </div>
+                    <div class="form-group">
+                        <label>Address</label>
+                        <input id="address" type="text" class="form-control" required="required" name="address" />
+                    </div>
+                    <div class="form-group">
+                        <label>Ngày đặt</label>
+                        <input id="createat" type="text" class="form-control" required="required" name="createat" />
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Modal edit -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index:10000 !important">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" action="@Url.Action("Edit")">
+                @Html.AntiForgeryToken()
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Chi tiết đơn hàng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="max-width:none !important;">
+                    <input id="edit-id" type="hidden" class="form-control" required="required" name="orderid" />
+                    <div class="form-group nameorder">
+                        <label>Tên người nhận</label>
+                        <input id="editnameorder" type="text" class="form-control" required="required" name="nameorder" />
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input id="editphone" type="text" class="form-control" required="required" name="phone" />
+                    </div>
+                    <div class="form-group">
+                        <label>Address</label>
+                        <input id="editaddress" type="text" class="form-control" required="required" name="address" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary" id="submitbutton" value="Xác nhận">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal delete-->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index:10000 !important">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Xóa đơn hàng</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Bạn chắc chắn xóa đơn hàng này?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+                <form method="post" action="@Url.Action("Delete")">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="deleteorderid" name="orderid" />
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section styles{
+    <style>
+        .form-group input {
+            max-width: none !important;
+        }
+    </style>
+}
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            //detail
+            $(".detail").click(function (event) {
+                var orderid = $(this).attr("data-orderid");
+                var name = $("#name-" + orderid).val();
+                var phone = $("#phone-" + orderid).val();
+                var address = $("#address-" + orderid).val();
+                var nameorder = $("#nameorder-" + orderid).val();
+                var createat = $("#createat-" + orderid).val();
+                $("#nameorder").val(nameorder);
+                $("#name").val(name);
+                $("#phone").val(phone);
+                $("#address").val(address);
+                $("#createat").val(createat);
+                //readonly
+                document.getElementById("nameorder").readOnly = true;
+                document.getElementById("name").readOnly = true;
+                document.getElementById("phone").readOnly = true;
+                document.getElementById("address").readOnly = true;
+                document.getElementById("createat").readOnly = true;
+                //submit
+                document.getElementById("submitbutton").type = "hidden";
+                $("#detailModal").modal();
+
+            });
+
+
+            //edit
+            $(".edit").click(function (event) {
+                var orderid = $(this).attr("data-orderid");
+                var phone = $("#phone-" + orderid).val();
+                var address = $("#address-" + orderid).val();
+                var nameorder = $("#nameorder-" + orderid).val();
+                $("#edit-id").val(orderid);
+                $("#editnameorder").val(nameorder);
+                $("#editphone").val(phone);
+                $("#editaddress").val(address);
+                //readonly
+                document.getElementById("nameorder").readOnly = false;
+                document.getElementById("phone").readOnly = false;
+                document.getElementById("address").readOnly = false;
+                // remove form input
+
+                //submit
+                document.getElementById("submitbutton").type = "submit";
+                $("#editModal").modal();
+            });
+
+            //delete
+            $(".delete").click(function (event) {
+                var orderid = $(this).attr("data-orderid");
+                $("#deleteorderid").val(orderid);
+                $("#deleteModal").modal();
+            });
+        });
+    </script>
+}

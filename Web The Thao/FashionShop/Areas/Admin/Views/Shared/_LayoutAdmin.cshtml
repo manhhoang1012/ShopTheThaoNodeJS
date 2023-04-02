@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin</title>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+<script>
+    $(document).ready(function () {
+        toastr.options = {
+            "closeButton": true
+        };
+    });
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbartop").style.top = "0";
+            document.getElementById("navbarmenu").style.top = "34.8px";
+        } else {
+            document.getElementById("navbartop").style.top = "-35px";
+            document.getElementById("navbarmenu").style.top = "0";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+        $(function () {
+            if ($('#success').val()) {
+                displayMessage($('#success').val(), $('#subsuccess').val(), 'success');
+            }
+            if ($('#info').val()) {
+                displayMessage($('#info').val(), $('#subinfo').val(), 'info');
+            }
+            if ($('#warning').val()) {
+                displayMessage($('#warning').val(), $('#subwarning').val(), 'warning');
+            }
+            if ($('#error').val()) {
+                displayMessage($('#error').val(), $('#suberror').val(),'error');
+            }
+        });
+        var displayMessage = function (title,subTitle, msgType) {
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "positionClass": "toast-top-right",
+                "onClick": null,
+                "showDuration": "300",
+                "hideDuration": "1000",
+                "timeOut": "8000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            };
+            toastr[msgType](subTitle, title);
+        };
+    </script>
+    <style>
+        body {
+            padding: 10px;
+            overflow-x: hidden;
+        }
+        .navbar-top {
+            position: fixed;
+            font-size: 0.8em;
+            top: 0;
+            width: 100%;
+            background-color: black !important;
+            display: block;
+            max-height: 35px;
+            transition: top 0.3s;
+        }
+
+        nav.navbar-menu * {
+            color: white !important;
+        }
+
+            nav.navbar-menu * :hover {
+                transition: all 0.5s ease-in-out 0s;
+            }
+
+            nav.navbar-menu * :hover,
+            nav.navbar-menu * :focus {
+                background: transparent;
+                color: rgb(1 17 21 / 88%) !important;
+                text-decoration: none;
+            }
+
+        .navbar-menu {
+            padding: 0.2em !important;
+            position: fixed;
+            top: 34.8px;
+            left: 0;
+            right: 0;
+            z-index: 1230;
+            transition: top 0.3s;
+            background-color: rgb(1 17 21 / 88%) !important;
+        }
+
+        .dropdown-menu {
+            margin-top: 10px;
+            background-color: rgb(1 17 21 / 88%) !important;
+            -webkit-transform: translate(0, 50);
+            -o-transform: translate(0, 50);
+            transform: translate(0, 50);
+        }
+
+        .dropdown-item:hover {
+            color: rgb(1 17 21 / 88%) !important;
+        }
+
+        .dropdown-item:active {
+            background-color: rgb(1 17 21 / 88%) !important;
+            color: white !important;
+        }
+
+        .dropdown-menu-center {
+            right: auto;
+            left: 50%;
+            -webkit-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+
+        .dropdown-menu li {
+            position: relative;
+        }
+
+        .dropdown-menu .dropdown-submenu {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: -7px;
+        }
+
+        .dropdown-menu .dropdown-submenu-left {
+            right: 100%;
+            left: auto;
+        }
+
+        .dropdown-menu > li:hover > .dropdown-submenu {
+            display: block;
+        }
+        .table{
+            font-size: 0.9em;
+        }
+        .header-table-fix {
+            position: sticky;
+            top: 0;
+            border-color: #eff2f7;
+            background-color: #f8f9fa;
+            z-index: 1;
+        }
+        .my-custom-scrollbar {
+            position: relative;
+            height: calc(100vh - 10em);
+            overflow: auto;
+        }
+
+        .table-wrapper-scroll-y {
+            display: block;
+        }
+        .round-black-btn {
+            border-radius: 4px;
+            background: #212529;
+            color: #fff;
+            padding: 7px 45px;
+            display: inline-block;
+            margin-top: 20px;
+            border: solid 2px #212529;
+            transition: all 0.5s ease-in-out 0s;
+        }
+
+            .round-black-btn:hover,
+            .round-black-btn:focus {
+                background: transparent;
+                color: black;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-top fixed-top" id="navbartop">
+        <div class="container text-light align-content-center">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="#">
+                        <i class="fa fa-envelope mx-2"></i>Shiba@company.com
+                    </a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="#">
+                        <i class="fa fa-phone mx-2"></i>0384-659-245
+                    </a>
+                </div>
+                <div>
+                    <a class="text-light" href="#" target="_blank" rel="sponsored"><i class="fa fa-brands fa-facebook mr-2"></i></a>
+                    <a class="text-light" href="#" target="_blank"><i class="fa fa-brands fa-instagram mr-2"></i></a>
+                    <a class="text-light" href="#" target="_blank"><i class="fa fa-brands fa-twitter  mr-2"></i></a>
+                    <a class="text-light" href="#" target="_blank"><i class="fa fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-menu navbar-light" id="navbarmenu">
+        <div class="container" style="max-width: 1400px;">
+            <a class="navbar-brand" href="@Url.Action("Index","Dashboard")"><i class="fa fa-2x fa-fw fa-solid fa-shield-cat fa-beat"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown" role="button">
+                            Sản phẩm
+                            <i class="fa fa-brands fa-product-hunt"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Index","Product")">Danh sách sản phẩm</a>
+                            <a class="dropdown-item" href="@Url.Action("Create","Product")">Thêm sản phẩm</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Thương hiệu
+                            <i class="fa fa-solid fa-square-poll-vertical"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Index","Branch")">Danh sách thương hiệu</a>
+                            <a class="dropdown-item" href="@Url.Action("Create","Branch")">Thêm thương hiệu</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Danh mục
+                            <i class="fa fa-solid fa-grip"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Index","Category")">Danh sách danh mục</a>
+                            <a class="dropdown-item" href="@Url.Action("Create","Category")">Thêm danh mục</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Đơn hàng
+                            <i class="fa fa-solid fa-truck-arrow-right"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Index","Order")">Danh sách đơn hàng</a>
+                            <a class="dropdown-item" href="@Url.Action("Create","Order")">Thêm đơn hàng</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Thống kê</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Khách hàng
+                            <i class="fa fa-solid fa-users"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Index","Customer")">Danh sách khách hàng</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Thống kê</a>
+                        </div>
+                    </li>
+                </ul>
+              
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Tài khoản
+                            <i class="fa fa-solid fa-user-lock"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="@Url.Action("Index","Account")">Danh sách quản lý</a>
+                            <a class="dropdown-item" href="@Url.Action("Create","Account")">Thêm quản lý</a>
+                            <a class="dropdown-item" href="@Url.Action("Profile","Auth")">Profile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="@Url.Action("Logout","Auth")">Đăng xuất<i class="fa fa-solid fa-right-from-bracket ml-2"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content" style="margin-top:100px">
+        @RenderBody()
+    </div>
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        <input type="hidden" id="success" value="@TempData["success"]" />
+        <input type="hidden" id="info" value="@TempData["info"]" />
+        <input type="hidden" id="warning" value="@TempData["warning"]" />
+        <input type="hidden" id="error" value="@TempData["error"]" />
+        <input type="hidden" id="subsuccess" value="@TempData["subsuccess"]" />
+        <input type="hidden" id="subinfo" value="@TempData["subinfo"]" />
+        <input type="hidden" id="subwarning" value="@TempData["subwarning"]" />
+        <input type="hidden" id="suberror" value="@TempData["suberror"]" />
+    </footer>
+</body>
+</html>
