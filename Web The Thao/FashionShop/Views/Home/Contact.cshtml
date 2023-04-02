@@ -1,20 +1,72 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Thông tin liên hệ";
 }
 
-<div class="container py-5">
-    <h2>@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
+<style>
+    .hinh{
+        height:230px;
+        width:160px
+    }
+</style>
 
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+<div class="container">
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
-   </div>
+    <br />
+    <h1>Thông tin liên hệ</h1>
+    <div>
+        <div class="col-md-2 col-sm-2 col-xs-2 contact-icon">
+            <span class="fa fa-home" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10 contact-text">
+            <h4>Địa chỉ cửa hàng</h4>
+            <p>Thành phố Hồ Chí Minh</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div>
+        <div class="col-md-2 col-sm-2 col-xs-2 contact-icon">
+            <span class="fa fa-envelope" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10 contact-text">
+            <h5>Email: <a href="mailto:manhhoang.101202@gmail.com">manhhoang.101202@gmail.com</a></h5>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <br />
+    <div>
+        <div class="col-md-2 col-sm-2 col-xs-2 contact-icon">
+            <span class="fa fa-phone" aria-hidden="true"></span>
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-10 contact-text">
+            <h4>Số điện thoại liên hệ: </h4>
+            <p>0376381911</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <h2>Thành viên sáng lập</h2>
+    <div class="row">
+        <a href="https://www.facebook.com/anhduy34.2">
+
+            <img class="hinh" src="~/Content/images/thanhvien/duy.jpg" alt="" />
+            <p>Anh Duy</p>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/manh.hoang1012/">
+
+            <img class="hinh" src="~/Content/images/thanhvien/hoang2.jpg" alt="" />
+            <p>Mạnh Hoàng</p>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/diyken.77">
+
+            <img class="hinh" src="~/Content/images/thanhvien/ken.jpg" alt="" />
+            <p>Trường duy</p>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/nts.hoaixuan.20">
+
+            <img class="hinh" src="~/Content/images/thanhvien/son.jpg" alt="" />
+            <p>Thế Sơn</p>
+        </a>
+    </div>
+</div>
+
+

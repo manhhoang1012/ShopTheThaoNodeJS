@@ -2464,6 +2464,10 @@
     <Content Include="Content\font-awesome\svgs\solid\yen-sign.svg" />
     <Content Include="Content\font-awesome\svgs\solid\yin-yang.svg" />
     <Content Include="Content\font-awesome\svgs\solid\z.svg" />
+    <Content Include="Content\images\thanhvien\duy.jpg" />
+    <Content Include="Content\images\thanhvien\hoang.jpg" />
+    <Content Include="Content\images\thanhvien\ken.jpg" />
+    <Content Include="Content\images\thanhvien\son.jpg" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
