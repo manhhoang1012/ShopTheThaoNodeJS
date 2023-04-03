@@ -90,7 +90,7 @@ namespace FashionShop.Controllers
             ViewBag.Error = "";
             return View();
         }
-        [HttpPost]
+        /*[HttpPost]
         public ActionResult Register(FormCollection form)
         {
             var name = form["Name"];
@@ -117,6 +117,39 @@ namespace FashionShop.Controllers
                 };
                 context.Customers.Add(cus);
                 context.SaveChangesAsync();
+                TempData["success"] = "Đăng ký thành công!";
+                return RedirectToAction("Login", "Home");
+            }
+        */
+        [HttpPost]
+        public ActionResult Register(FormCollection form)
+        {
+            var name = form["Name"];
+            var phone = form["Phone"];
+            var address = form["Address"];
+            var email = form["Email"];
+            var pass = HelperString.toMD5(form["Pass"]);
+            Session[Const.CartSession] = Session[Const.CartSession].ToString() == "" ? Guid.NewGuid().ToString() : Session[Const.CartSession].ToString();
+            string cus_id = Session[Const.CartSession].ToString();
+            var check_phone = context.Customers.FirstOrDefault(x => x.Phone == phone && x.Password != null);
+            if (check_phone != null)
+            {
+                ViewBag.Error = "Số điện thoại đã được đăng ký!";
+                return View();
+            }
+            else
+            {
+                Customer cus = new Customer()
+                {
+                    Id = cus_id,
+                    Name = name,
+                    Phone = phone,
+                    Address = address,
+                    Email = email,
+                    Password = pass
+                };
+                context.Customers.Add(cus);
+                context.SaveChanges();
                 TempData["success"] = "Đăng ký thành công!";
                 return RedirectToAction("Login", "Home");
             }
